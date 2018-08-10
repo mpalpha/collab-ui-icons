@@ -5,8 +5,11 @@
 
   @font-face {
     font-family: $icon-font-name;
-    src: url("#{$icon-font-path}/collab-ui-icons.woff2?9943209954a8ffda21d25a987dfb471b") format("woff2"),
-url("#{$icon-font-path}/collab-ui-icons.woff?9943209954a8ffda21d25a987dfb471b") format("woff");
+    src: url("#{$icon-font-path}/collab-ui-icons.eot?53c509122f3ffd18a4f52f03373f2c3f?#iefix") format("embedded-opentype"),
+url("#{$icon-font-path}/collab-ui-icons.woff2?53c509122f3ffd18a4f52f03373f2c3f") format("woff2"),
+url("#{$icon-font-path}/collab-ui-icons.woff?53c509122f3ffd18a4f52f03373f2c3f") format("woff"),
+url("#{$icon-font-path}/collab-ui-icons.ttf?53c509122f3ffd18a4f52f03373f2c3f") format("truetype"),
+url("#{$icon-font-path}/collab-ui-icons.svg?53c509122f3ffd18a4f52f03373f2c3f#collab-ui-icons") format("svg");
     font-weight: normal;
     font-style: normal;
   }
